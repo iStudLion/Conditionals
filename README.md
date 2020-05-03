@@ -24,8 +24,7 @@ This is useful for plugin customizability by only executing if the condition is 
 
 # Where this would be useful
 Conditional would be useful for developers that want their plugins to be fully customizable.
-By using PlaceholderAPI or any other placeholder plugins to parse placeholders before the condition is parsed.
-<br>Click [here](https://github.com/iStudLion/RunicCore/blob/master/custom_items.yml#L18) to see how I used it inside my config.
+By using PlaceholderAPI or any other placeholder plugins to parse placeholders before the condition is parsed. Click [here](https://github.com/iStudLion/RunicCore/blob/master/custom_items.yml#L18) to see how I used it inside my config or just look at the other example I provided below.
 
 ```java
 	String condition = "\"%player_name%\" == \"Notch\""; // this would be a string from your config
