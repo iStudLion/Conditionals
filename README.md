@@ -36,3 +36,7 @@ By using PlaceholderAPI or any other placeholder plugins to parse placeholders b
 		// if the player's name is not "Notch" this would be executed
 	}
 ```
+
+# To Do
+As this is very useful (for me atleast) to make my plugins customizable I would love to add a feature that throws exception when an invalid condition is parsed, so that I can properly warn the person that customized the plugin what they did wrong in their condition.
+As of right now bad conditions just return false.
